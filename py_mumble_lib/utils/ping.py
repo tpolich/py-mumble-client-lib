@@ -1,7 +1,8 @@
 __author__ = 'Tim'
 
 from struct import *
-import socket,time, datetime
+import socket
+import time
 
 
 def ping(host, port=64738, ident=0, timeout=3, printout=True):
